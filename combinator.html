@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div>p{
+            color: rebeccapurple;
+        }
+        /*adjacent sibling selector*/
+        .brother+.sister{
+            color: darkcyan;
+        }
+        /*general sibling selector*/
+        .brother~.sister{
+            color: crimson;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos iusto, natus, eum perspiciatis voluptatem similique non maiores saepe dolor rerum facilis dolores exercitationem minus hic doloribus molestias consequuntur quisquam ratione.</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sit cumque numquam itaque vero a, illo ad fugit molestiae rerum alias id dicta natus, repudiandae quibusdam consectetur aperiam possimus odit!</p>
+     
+    <div class="brother">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nobis sequi porro nam qui dolores, nisi molestias ut dicta itaque quae, modi, adipisci ipsa reiciendis eveniet! Unde minima maiores reprehenderit.</div>
+     <div class="sister">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, iure in! Molestiae doloribus eveniet ducimus at, omnis, architecto expedita soluta in quae culpa exercitationem dolore, debitis voluptatibus asperiores magni non?</div>
+    <div class="sister">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas quia culpa consequatur optio, similique explicabo cumque quos nobis, quae dolorum provident vel itaque inventore? Error, laudantium numquam? Iure, quaerat nulla.</div>
+    </body>
+</html>
